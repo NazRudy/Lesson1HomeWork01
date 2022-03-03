@@ -37,4 +37,15 @@
         android:textColor="#aa00aa"
         android:textSize="35sp" />
 
+    <Switch
+        android:id="@+id/switch01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#bbbbbb"
+        android:textSize="35sp"
+        android:text="Switch01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
 </LinearLayout>
