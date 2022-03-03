@@ -15,8 +15,17 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:textColor="@color/purple_200"
-        android:textSize="35sp">
-    </TextView>
+        android:textSize="35sp"/>
 
+    <EditText
+        android:id="@+id/edit_text01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#ff00ff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="edit_text01"
+        />
 
 </LinearLayout>
