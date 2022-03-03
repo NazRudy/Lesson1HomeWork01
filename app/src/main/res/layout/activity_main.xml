@@ -41,11 +41,22 @@
         android:id="@+id/switch01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#bbbbbb"
+        android:textColor="#abcdef"
         android:textSize="35sp"
         android:text="Switch01"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#abffcd"
+        android:textSize="35sp"
+        android:text="Check_box01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
 
 </LinearLayout>
