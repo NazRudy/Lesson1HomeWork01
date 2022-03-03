@@ -15,7 +15,9 @@
         android:layout_marginTop="16dp"
         android:text="Text_view01"
         android:textColor="@color/purple_200"
-        android:textSize="35sp" />
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
 
     <EditText
         android:id="@+id/edit_text01"
@@ -25,7 +27,8 @@
         android:layout_marginTop="16dp"
         android:text="edit_text01"
         android:textColor="#ff00ff"
-        android:textSize="35sp" />
+        android:textSize="35sp"
+        android:fontFamily="monospace"/>
 
     <Button
         android:id="@+id/button01"
@@ -35,7 +38,8 @@
         android:layout_marginTop="16dp"
         android:text="Button01"
         android:textColor="#aa00aa"
-        android:textSize="35sp" />
+        android:textSize="35sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
 
     <Switch
         android:id="@+id/switch01"
@@ -46,6 +50,7 @@
         android:text="Switch01"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-thin"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <CheckBox
@@ -55,8 +60,18 @@
         android:textColor="#abffcd"
         android:textSize="35sp"
         android:text="Check_box01"
+        android:fontFamily="monospace"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"/>
 
+    <ToggleButton
+        android:id="@+id/toggle_button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff00"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        />
 
 </LinearLayout>
