@@ -79,7 +79,7 @@
         android:inputType="textLongMessage"/>
 
     <EditText
-        android:id="@+id/edit_time"
+        android:id="@+id/time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"

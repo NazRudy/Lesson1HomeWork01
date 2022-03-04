@@ -3,15 +3,15 @@ package com.naz.lesson1homework01;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.CalendarView;
+import android.widget.TextView;
 
-public class MainActivity3 extends AppCompatActivity {
+public class MainActivity4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_main4);
 
-        CalendarView calendarView = findViewById(R.id.calendar);
+        TextView textView41 = findViewById(R.id.tex_view41);
     }
 }
