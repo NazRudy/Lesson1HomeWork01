@@ -1,18 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text_view01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:fontFamily="cursive"
+        android:text="Text_view01"
+        android:textColor="@color/purple_200"
+        android:textSize="35sp"
+        android:textStyle="bold" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/edit_text01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="edit_text01"
+        android:textColor="#ff00ff"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Button01"
+        android:textColor="#aa00aa"
+        android:textSize="35sp" />
+
+    <Switch
+        android:id="@+id/switch01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Switch01"
+        android:textColor="#abcdef"
+        android:textSize="35sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="Check_box01"
+        android:textColor="#abffcd"
+        android:textSize="35sp" />
+
+    <ToggleButton
+        android:id="@+id/toggle_button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffff00"
+        android:textSize="35sp" />
+
+</LinearLayout>
